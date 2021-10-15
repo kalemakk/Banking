@@ -1,0 +1,23 @@
+-- CREATE TABLE `customers`
+-- (
+--     `id`                    bigint(20) NOT NULL AUTO_INCREMENT,
+--     `email`                 varchar(255) DEFAULT NULL,
+--     `first_name`            varchar(255) DEFAULT NULL,
+--     `last_name`             varchar(255) DEFAULT NULL,
+--     PRIMARY KEY (`id`)
+-- );
+--
+--
+-- CREATE TABLE `accounts`
+-- (
+--     `id`                bigint(20) NOT NULL AUTO_INCREMENT,
+--     `accNumber`    decimal(19, 2) DEFAULT NULL,
+--     `accountType` decimal(19, 2) DEFAULT NULL,
+--     `actualBalance`            varchar(255)   DEFAULT NULL,
+--     `accountStatus`            varchar(255)   DEFAULT NULL,
+--     `customer_id`           bigint(20) DEFAULT NULL,
+--     PRIMARY KEY (`id`),
+--     KEY                 `FKt5uqy9p0v3rp3yhlgvm7ep0ij` (`customer_id`),
+--     CONSTRAINT `FKt5uqy9p0v3rp3yhlgvm7ep0ij` FOREIGN KEY (`customer_id`) REFERENCES `accounts` (`id`)
+-- );
+--
