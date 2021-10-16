@@ -10,7 +10,7 @@ make a withdraw: http://127.0.0.1:8080/api/with-draw/?amount=1000&customerId=5&a
 check transactions made by customer: http://127.0.0.1:8080/api/transactions?accNumber=6f62cec9-ab18-45e6-bac2-7be7096f9338.</br>
 check customer's balance: http://127.0.0.1:8080/api/balance?accNumber=6f62cec9-ab18-45e6-bac2-7be7096f9338 ..where accNumber is the customers account Number got from the customer's table.<br> 
 
-I used myqsl as the database.</br>
+I used mysql as the database.</br>
 
 Issues<br>
 Not yet minimised the amount of data to show for each entity.
